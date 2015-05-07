@@ -1,3 +1,5 @@
+[Udacity](https://www.udacity.com/) Course on Data Visualization and D3.js
+
 Visualization - explanatory
 - Context - audience
 - Appropriate visualization for audience
@@ -61,6 +63,7 @@ Pre-attentive Processing
    - Form
    - Movement
    - Spacial position
+ - [Article: Tapping the Power of Visual Perception](http://www.perceptualedge.com/articles/ie/visual_perception.pdf)
 
 Negative space  around or between shapes can be used effectively
 - Example: [FedEx logo](http://www.fedex.com/us/) has an arrow in it between the E and the x
@@ -77,12 +80,13 @@ Color
 - Don't just use it to use it and remove color where it's not making a point
 - Be aware of color blindness
 - [ColorBrewer](http://colorbrewer2.org/)
+- [Article: Practical Rules for Using Color in Charts] (http://www.perceptualedge.com/articles/visual_business_intelligence/rules_for_using_color.pdf)
 
 2D > 3D for perception and understanding - can view all data at once and compare more easily and quickly (artery/heart attack example)
 
 Simply visualizations are better
 
-Gesalt Laws
+[Gesalt Laws](http://jimsaw.com/design/gestalt.html)
 - Proximity - elements close to each other are perceived as the same group
 - Similarity - elements that look alike are organized together
 - Figure + Ground - perceive object and surface
@@ -93,7 +97,7 @@ Gesalt Laws
 Think about what you're going to leave out of your chart as well as what you're going to put in
 
 Chart Junk (Tufte) - "anything that is not part of the minimum set of visuals necessary to communicate the information understandably"
-- Heavy/dark grid lines
+- Heavy/dark grid lines [Article: Grid Lines](http://www.perceptualedge.com/articles/dmreview/grid_lines.pdf)
 - Unnecessary text
 - Ornamenetet chart areas
 - Pictures within graphs
@@ -113,3 +117,16 @@ Lie Factor (Tufte) = Size of Effect Shown in Graphic / Size of Effect Shown in D
 Grammar of Graphics Pipeline matches well with D3 chaining of transformations
 
 Grammar of Graphidcs separates content/data from the medium/graphic/aesthetic
+
+**Resources**
+- [Measure of America](http://www.measureofamerica.org/)
+- [Plotly Blog](http://blog.plot.ly/)
+- [Plotly Modern Data Blog](http://moderndata.plot.ly/)
+- [The Functional Art](http://www.thefunctionalart.com/)
+- [Visualising Data](http://www.visualisingdata.com/)
+- [Flowing Data](http://flowingdata.com/)
+- [Storytelling with Data](http://www.storytellingwithdata.com/)
+- [A Tour through the Visualization Zoo](http://queue.acm.org/detail.cfm?id=1805128)
+- [Book: The Grammar of Graphics](http://www.amazon.com/The-Grammar-Graphics-Statistics-Computing/dp/0387245448)
+- [Book: Information Visualization](http://www.amazon.com/Information-Visualization-Third-Edition-Technologies/dp/0123814642)
+- [Graphic: Gay rights in the US](http://www.theguardian.com/world/interactive/2012/may/08/gay-rights-united-states)
