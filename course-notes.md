@@ -127,6 +127,7 @@ Grammar of Graphidcs separates content/data from the medium/graphic/aesthetic
 - [Flowing Data](http://flowingdata.com/)
 - [Storytelling with Data](http://www.storytellingwithdata.com/)
 - [A Tour through the Visualization Zoo](http://queue.acm.org/detail.cfm?id=1805128)
+- [15 Data Visualizations That Will Blow Your Mind](http://blog.udacity.com/2015/01/15-data-visualizations-will-blow-mind.html)
 - [Book: The Grammar of Graphics](http://www.amazon.com/The-Grammar-Graphics-Statistics-Computing/dp/0387245448)
 - [Book: Information Visualization](http://www.amazon.com/Information-Visualization-Third-Edition-Technologies/dp/0123814642)
 - [Graphic: Gay rights in the US](http://www.theguardian.com/world/interactive/2012/may/08/gay-rights-united-states)
