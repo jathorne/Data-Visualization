@@ -131,3 +131,8 @@ Grammar of Graphidcs separates content/data from the medium/graphic/aesthetic
 - [Book: The Grammar of Graphics](http://www.amazon.com/The-Grammar-Graphics-Statistics-Computing/dp/0387245448)
 - [Book: Information Visualization](http://www.amazon.com/Information-Visualization-Third-Edition-Technologies/dp/0123814642)
 - [Graphic: Gay rights in the US](http://www.theguardian.com/world/interactive/2012/may/08/gay-rights-united-states)
+
+**Tools**
+- [Tableau Public](https://public.tableau.com/s/)
+- [RAW](http://raw.densitydesign.org/)
+- [Chartio](https://chartio.com/)
