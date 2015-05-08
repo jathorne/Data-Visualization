@@ -136,3 +136,5 @@ Grammar of Graphidcs separates content/data from the medium/graphic/aesthetic
 - [Tableau Public](https://public.tableau.com/s/)
 - [RAW](http://raw.densitydesign.org/)
 - [Chartio](https://chartio.com/)
+- [D3](http://d3js.org/)
+- [Dimple](http://dimplejs.org/)
