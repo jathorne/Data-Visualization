@@ -118,6 +118,78 @@ Grammar of Graphics Pipeline matches well with D3 chaining of transformations
 
 Grammar of Graphidcs separates content/data from the medium/graphic/aesthetic
 
+Designing a visualization is an iterative process that involves prototyping/sketching and redesigning
+
+Narrative Structures
+- Journalism - rigorous and empirical is the best
+  - Quantitative and Rigorous & Empirical: [FiveThirtyEight](http://fivethirtyeight.com/features/what-the-fox-knows/)
+  - Qualitative and Rigorous & Empirical: [Washington Post](http://www.washingtonpost.com/)
+  - Quantitative and Anecdotal & Ad-Hoc - numbers out of context i.e. sports writers
+  - Qualitative and Anecdotal & Ad-Hoc - no data or hard facts i.e. op-ed pieces
+
+Correlation vs. Causation
+- A and B vs. A implies B
+- Need to be careful of presentation of results - don't want to allow reader/viewer to interpret causation from a correlation
+- [Spurious Correlations](http://tylervigen.com/)
+
+Traditional Journalism vs. Data Journalism
+- Traditional
+  - Static chart within a narrative
+  - Narrative is focus, data is secondary
+  - Linear narrative - sequence of events
+  - Delivered in physical and static form
+- Data 
+  - Narrative built from the data
+  - Data drives narrative - narrative is created by using the context of data
+  - More complex and varied narrative 
+  - Allow viewer/user to make conclusions in their own way
+  - Delivered in interactive and dynamic form
+
+Data visualization is really mostly about the data - finding data, parsing it, verifying the data, exploring it, etc. visualization is the final step
+
+Best practices for visualizations
+- Bar charts must have a 0 baseline [Example](http://flowingdata.com/2012/08/06/fox-news-continues-charting-excellence/)
+- Don't Lie with Data - [Disinformation Visualization](https://visualisingadvocacy.org/blog/disinformation-visualization-how-lie-datavis)
+- Pie charts can confuse the eye and are misleading - stacked bars can still show 100% for comparisons 
+- Article: [Save the Pies for Dessert](http://www.perceptualedge.com/articles/visual_business_intelligence/save_the_pies_for_dessert.pdf)
+- Article: [Misleading with Statistics](https://medium.com/i-data/misleading-with-statistics-c63780efa928)
+- Make sure charts have clear units, informative labels, and context (title, etc.)
+- Use juxtaposition/comparison to draw attention to the message
+- Add interpretation/explanation to show what different highlighting/colors mean
+- Think about how your audience might interpret or interatc with the visualization
+
+Bias in Data/Visualization
+- Author Bias
+  - "Designers and presenters of the visualization (knowing or unknowingly) misrepresent data through visual encodings or other design choices such as the chart type"
+  - Design choices should "establish trust between the reader and the graphic" and "facilitate communication"
+- Data Bias
+  - Measurement errors, improper measurement, faulty device used for measurement, selection bias in questionnaire 
+  - Basically, data errors or omissions
+- Reader Bias
+  - Reader's "preconceived notions or assumptions" 
+  - "Consider your audience's background and familiarity with graphics when designing a data visualization"
+ 
+Narrative Structures
+- Article: [Narrative Visualization: Telling Stories with Data](http://vis.stanford.edu/files/2010-Narrative-InfoVis.pdf)
+- Author Driven Narratives 
+  - Linear flow between start and end
+  - Predetermined narrative
+  - Strong ordering
+  - Heavy messaging
+  - Need for clarity and speed
+- Viewer Driven Narratives
+  - Start then viewer chooses which way to go resulting in different endings for different viewers
+  - Viewer gets to ask questions and explore
+  - Viewer tells their own data story
+  - "Choose your own adventure"
+- Martini Glass Narrative
+  - Start at the base and go through author driven single path 
+  - Then the ending is an exploration of different paths
+- What narrative to you want to build from the data? How do you want to do it?
+  - Exploratory data analysis can help you find your message 
+
+
+
 **Resources**
 - [Measure of America](http://www.measureofamerica.org/)
 - [Plotly Blog](http://blog.plot.ly/)
@@ -130,6 +202,7 @@ Grammar of Graphidcs separates content/data from the medium/graphic/aesthetic
 - [15 Data Visualizations That Will Blow Your Mind](http://blog.udacity.com/2015/01/15-data-visualizations-will-blow-mind.html)
 - [Information Aesthetics](http://infosthetics.com/)
 - [Visual Complexity](http://www.visualcomplexity.com/vc/)
+- [Data Journalism Handbook](http://datajournalismhandbook.org/1.0/en/index.html)
 - [Book: The Grammar of Graphics](http://www.amazon.com/The-Grammar-Graphics-Statistics-Computing/dp/0387245448)
 - [Book: Information Visualization](http://www.amazon.com/Information-Visualization-Third-Edition-Technologies/dp/0123814642)
 - [Graphic: Gay rights in the US](http://www.theguardian.com/world/interactive/2012/may/08/gay-rights-united-states)
