@@ -191,6 +191,7 @@ Narrative Structures
 
 
 **Resources**
+- [Edward Tufte](http://www.edwardtufte.com/tufte/)
 - [Measure of America](http://www.measureofamerica.org/)
 - [Plotly Blog](http://blog.plot.ly/)
 - [Plotly Modern Data Blog](http://moderndata.plot.ly/)
