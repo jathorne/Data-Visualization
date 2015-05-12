@@ -206,6 +206,8 @@ Narrative Structures
 - [Book: The Grammar of Graphics](http://www.amazon.com/The-Grammar-Graphics-Statistics-Computing/dp/0387245448)
 - [Book: Information Visualization](http://www.amazon.com/Information-Visualization-Third-Edition-Technologies/dp/0123814642)
 - [Graphic: Gay rights in the US](http://www.theguardian.com/world/interactive/2012/may/08/gay-rights-united-states)
+- [Book: Creating More Effective Graphs](http://www.amazon.com/Creating-Effective-Graphs-Naomi-Robbins/dp/0985911123)
+- [Book: Graph Design for the Eye and Mind](http://www.amazon.com/Graph-Design-Mind-Stephen-Kosslyn/dp/0195311841)
 
 **Tools**
 - [Tableau Public](https://public.tableau.com/s/)
