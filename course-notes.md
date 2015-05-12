@@ -156,7 +156,7 @@ Best practices for visualizations
 - Make sure charts have clear units, informative labels, and context (title, etc.)
 - Use juxtaposition/comparison to draw attention to the message
 - Add interpretation/explanation to show what different highlighting/colors mean
-- Think about how your audience might interpret or interatc with the visualization
+- Think about how your audience might interpret or interact with the visualization
 
 Bias in Data/Visualization
 - Author Bias
