@@ -203,7 +203,7 @@ Be Careful of Scaling Shapes
 -  So, use the data values for the area instead
 -  Then use the square root of the data to determine the proper radius to use for each representation
 
-GeoJSON
+[GeoJSON](http://geojson.org/geojson-spec.html)
 - Geographic encoding of coordindates
 - Can increase latency in loading because it's a lengthy file
 - TopoJSON is an extension that is smaller and includes topography
