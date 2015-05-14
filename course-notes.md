@@ -9,13 +9,12 @@ Visualization - explanatory
 
 Slope graphs - plot two data points in time, two groups, two points to compare change [Bachelor's Degree vs. Obesity example](http://vizwiz.blogspot.com/2013/01/alberto-cairo-three-steps-to-become.html)
 
-[Anscombe's Quartet](http://en.wikipedia.org/wiki/Anscombe%27s_quartet) - always plot your data, don't rely of stas - power of visualization
+[Anscombe's Quartet](http://en.wikipedia.org/wiki/Anscombe%27s_quartet) - always plot your data, don't rely of stats - power of visualization
 
 * Ordered - size, oreintation, saturation
 * Nominal - hue, shape, texture
 
-Cleveland & McGill paper: Ranking of encondings (More Accurate to Less Accurate)
-
+Cleveland & McGill Paper: Ranking of encondings (More Accurate to Less Accurate)
 1. Position
 2. Length
 3. Angle Slope
@@ -26,8 +25,7 @@ Cleveland & McGill paper: Ranking of encondings (More Accurate to Less Accurate)
 Double encoding - using the same variable for both position and size or for x-position and color 
 
 Opacity can make it easier to see where points overlap and to identify multiple points in a similar location
-
-Example - [Facebook IPO Grpahic](http://www.nytimes.com/interactive/2012/05/17/business/dealbook/how-the-facebook-offering-compares.html?_r=0)
+- Example - [Facebook IPO Grpahic](http://www.nytimes.com/interactive/2012/05/17/business/dealbook/how-the-facebook-offering-compares.html?_r=0)
 - Opacity allows you  to see the overlap
 - Color and x-position are used for time
 - Log-scale shows comparison 
@@ -35,7 +33,7 @@ Example - [Facebook IPO Grpahic](http://www.nytimes.com/interactive/2012/05/17/b
 In SVG/D3 (0,0) is at the top left of the plot/visual area so flip the bounds on the range for y when creating a scale so that it creates the mapped (0,0) in the lower left
 
 Visual Encoding - building blocks of a graphic/visualization
-- Parts of Speech : Sentences :: Visual Encodings : Charts
+- Analogy - Parts of Speech : Sentences :: Visual Encodings : Charts
 
 Commuinicate in the most effective manner 
 - Simple solutions to solve problems
@@ -80,7 +78,7 @@ Color
 - Don't just use it to use it and remove color where it's not making a point
 - Be aware of color blindness
 - [ColorBrewer](http://colorbrewer2.org/)
-- [Article: Practical Rules for Using Color in Charts] (http://www.perceptualedge.com/articles/visual_business_intelligence/rules_for_using_color.pdf)
+- [Article: Practical Rules for Using Color in Charts](http://www.perceptualedge.com/articles/visual_business_intelligence/rules_for_using_color.pdf)
 
 2D > 3D for perception and understanding - can view all data at once and compare more easily and quickly (artery/heart attack example)
 
@@ -115,7 +113,6 @@ Lie Factor (Tufte) = Size of Effect Shown in Graphic / Size of Effect Shown in D
 - Size of Effect = ( |Second Value - First Value| / First Value ) x 100
 
 Grammar of Graphics Pipeline matches well with D3 chaining of transformations
-
 Grammar of Graphics separates content/data from the medium/graphic/aesthetic
 
 Designing a visualization is an iterative process that involves prototyping/sketching and redesigning
@@ -133,12 +130,12 @@ Correlation vs. Causation
 - [Spurious Correlations](http://tylervigen.com/)
 
 Traditional Journalism vs. Data Journalism
-- Traditional
+- Traditional Journalism
   - Static chart within a narrative
   - Narrative is focus, data is secondary
   - Linear narrative - sequence of events
   - Delivered in physical and static form
-- Data 
+- Data Journalism
   - Narrative built from the data
   - Data drives narrative - narrative is created by using the context of data
   - More complex and varied narrative 
