@@ -157,6 +157,7 @@ Best practices for visualizations
 - Use juxtaposition/comparison to draw attention to the message
 - Add interpretation/explanation to show what different highlighting/colors mean
 - Think about how your audience might interpret or interact with the visualization
+- Have a clear outcome for the audience to take away from the visualization - think about this in advance and use it to drive the visualization 
 
 Bias in Data/Visualization
 - Author Bias
@@ -191,6 +192,8 @@ Narrative Structures
 Interactive Graphics
 - Example: [NYT Jobless Rate](http://www.nytimes.com/interactive/2009/11/06/business/economy/unemployment-lines.html?_r=0)
 - Interactivity allows the user to better understand the data on a graph
+- Buttons can be added to allow for user interaction
+  - Events can be used to trigger function calls (for example, "click" event)
 
 Be Careful of Scaling Shapes
 - Make sure the scale accurateley represents the data 
@@ -200,19 +203,18 @@ Be Careful of Scaling Shapes
 -  So, use the data values for the area instead
 -  Then use the square root of the data to determine the proper radius to use for each representation
 
-Mapping
-- GeoJSON
-  - Geographic encoding of coordindates
-  - Can increase latency in loading because it's a lengthy file
-  - TopoJSON is an extension that is smaller and includes topography
-  - In D3, map the latitude and longitude coordinates to pixel (x,y) values
-  - Mercator transform function can be used for this mapping
-  - Mercator distorts regions near the poles and preserves representation near the equator
-  - JSON file has a features element that contains the array of country coordinates
-  - [Map School](http://mapschool.io/)
-  - [How to Convert Shapefiles to GeoJSON](http://ben.balter.com/2013/06/26/how-to-convert-shapefiles-to-geojson-for-use-on-github/)
+GeoJSON
+- Geographic encoding of coordindates
+- Can increase latency in loading because it's a lengthy file
+- TopoJSON is an extension that is smaller and includes topography
+- In D3, map the latitude and longitude coordinates to pixel (x,y) values
+- Mercator transform function can be used for this mapping
+- Mercator distorts regions near the poles and preserves representation near the equator
+- JSON file has a features element that contains the array of country coordinates
+- [Map School](http://mapschool.io/)
+- [How to Convert Shapefiles to GeoJSON](http://ben.balter.com/2013/06/26/how-to-convert-shapefiles-to-geojson-for-use-on-github/)
 
-Useful Functions
+**Useful Functions**
 - [Nest](https://github.com/mbostock/d3/wiki/Arrays#-nest) for aggregating data 
 - [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) takes in array and returns an array that's been mapped 
 - [Sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) 
@@ -222,7 +224,7 @@ Useful Functions
 - [Arrays](https://github.com/mbostock/d3/wiki/Arrays)
 - [JavaScript this](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
 
-Resources for Animation and Interaction in D3
+**Resources for Animation and Interaction in D3**
 - [Animations and Transitions](http://www.jeromecukier.net/blog/2012/07/16/animations-and-transitions/)
 - [Animation and Interaction](http://synthesis.sbecker.net/articles/2012/07/10/learning-d3-part-3-animation-interaction)
 - [UI Animations](http://blog.andreaskoller.com/2014/02/d3-and-ui-animations/)
