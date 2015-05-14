@@ -116,7 +116,7 @@ Lie Factor (Tufte) = Size of Effect Shown in Graphic / Size of Effect Shown in D
 
 Grammar of Graphics Pipeline matches well with D3 chaining of transformations
 
-Grammar of Graphidcs separates content/data from the medium/graphic/aesthetic
+Grammar of Graphics separates content/data from the medium/graphic/aesthetic
 
 Designing a visualization is an iterative process that involves prototyping/sketching and redesigning
 
@@ -217,9 +217,8 @@ GeoJSON
 **Useful Functions**
 - [Nest](https://github.com/mbostock/d3/wiki/Arrays#-nest) for aggregating data 
 - [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) takes in array and returns an array that's been mapped 
-- [Sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) 
-  - Example: use the difference between two pieces of data as the accessor function 
-- [Set](https://github.com/mbostock/d3/wiki/Arrays#sets) - doesn't allow duplicates to be added
+- [Sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) example: use the difference between two pieces of data as the accessor function 
+- [Set](https://github.com/mbostock/d3/wiki/Arrays#sets) doesn't allow duplicates to be added
 - [Filter](https://github.com/mbostock/d3/wiki/Selections#filter)
 - [Arrays](https://github.com/mbostock/d3/wiki/Arrays)
 - [JavaScript this](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
