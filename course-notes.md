@@ -15,6 +15,7 @@ Slope graphs - plot two data points in time, two groups, two points to compare c
 * Nominal - hue, shape, texture
 
 Cleveland & McGill Paper: Ranking of encondings (More Accurate to Less Accurate)
+
 1. Position
 2. Length
 3. Angle Slope
