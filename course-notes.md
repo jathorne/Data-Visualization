@@ -49,11 +49,11 @@ Visual Encodings + Data Type + Relationship = Chart Type
 - Scatter - values are independent
 - Line - points are connected - shoes trend and correlation/dependency
 
-
 Geographic Chart Types
  - Choropleth = geographic + color
  - Cartogram = geographic + size
  - Dot map = geographic + shape
+ - Graduated symbol map - symbol plotted on map with size representing data
  
 Pre-attentive Processing
  - We can instangly recognize things
@@ -188,7 +188,46 @@ Narrative Structures
 - What narrative to you want to build from the data? How do you want to do it?
   - Exploratory data analysis can help you find your message 
 
+Interactive Graphics
+- Example: [NYT Jobless Rate](http://www.nytimes.com/interactive/2009/11/06/business/economy/unemployment-lines.html?_r=0)
+- Interactivity allows the user to better understand the data on a graph
 
+Be Careful of Scaling Shapes
+- Make sure the scale accurateley represents the data 
+- Example: [Ice Bucket Challenge](http://www.huffingtonpost.com/randy-krum/false-visualizations-when_b_5736106.html)
+-  Area = Pi * r-squared 
+-  If you set the radius of a circle to the data, you're effectively squaring it
+-  So, use the data values for the area instead
+-  Then use the square root of the data to determine the proper radius to use for each representation
+
+Mapping
+- GeoJSON
+  - Geographic encoding of coordindates
+  - Can increase latency in loading because it's a lengthy file
+  - TopoJSON is an extension that is smaller and includes topography
+  - In D3, map the latitude and longitude coordinates to pixel (x,y) values
+  - Mercator transform function can be used for this mapping
+  - Mercator distorts regions near the poles and preserves representation near the equator
+  - JSON file has a features element that contains the array of country coordinates
+  - [Map School](http://mapschool.io/)
+  - [How to Convert Shapefiles to GeoJSON](http://ben.balter.com/2013/06/26/how-to-convert-shapefiles-to-geojson-for-use-on-github/)
+
+Useful Functions
+- [Nest](https://github.com/mbostock/d3/wiki/Arrays#-nest) for aggregating data 
+- [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) takes in array and returns an array that's been mapped 
+- [Sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) 
+  - Example: use the difference between two pieces of data as the accessor function 
+- [Set](https://github.com/mbostock/d3/wiki/Arrays#sets) - doesn't allow duplicates to be added
+- [Filter](https://github.com/mbostock/d3/wiki/Selections#filter)
+- [Arrays](https://github.com/mbostock/d3/wiki/Arrays)
+- [JavaScript this](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
+
+Resources for Animation and Interaction in D3
+- [Animations and Transitions](http://www.jeromecukier.net/blog/2012/07/16/animations-and-transitions/)
+- [Animation and Interaction](http://synthesis.sbecker.net/articles/2012/07/10/learning-d3-part-3-animation-interaction)
+- [UI Animations](http://blog.andreaskoller.com/2014/02/d3-and-ui-animations/)
+- [Update Data Dynamically](http://www.d3noob.org/2013/02/update-d3js-data-dynamically.html)
+- [Tooltips](http://www.d3noob.org/2013/01/adding-tooltips-to-d3js-graph.html)
 
 **Resources**
 - [Edward Tufte](http://www.edwardtufte.com/tufte/)
@@ -204,6 +243,9 @@ Narrative Structures
 - [Information Aesthetics](http://infosthetics.com/)
 - [Visual Complexity](http://www.visualcomplexity.com/vc/)
 - [Data Journalism Handbook](http://datajournalismhandbook.org/1.0/en/index.html)
+- [D3 Tutorial](http://christopheviau.com/d3_tutorial/)
+- [D3 Bubble Map Tutorial](http://bost.ocks.org/mike/bubble-map/)
+- [D3 Small Multiple Maps](http://blog.webkid.io/multiple-maps-d3/)
 - [Book: The Grammar of Graphics](http://www.amazon.com/The-Grammar-Graphics-Statistics-Computing/dp/0387245448)
 - [Book: Information Visualization](http://www.amazon.com/Information-Visualization-Third-Edition-Technologies/dp/0123814642)
 - [Graphic: Gay rights in the US](http://www.theguardian.com/world/interactive/2012/may/08/gay-rights-united-states)
@@ -213,6 +255,6 @@ Narrative Structures
 **Tools**
 - [Tableau Public](https://public.tableau.com/s/)
 - [RAW](http://raw.densitydesign.org/)
-- [Chartio](https://chartio.com/)
+- [ Chartio](https://chartio.com/)
 - [D3](http://d3js.org/)
 - [Dimple](http://dimplejs.org/)
