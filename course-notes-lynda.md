@@ -57,7 +57,7 @@
   - Be able to spot mistakes - you need to know your data well enough to spot mistakes then you can dig in and correct
   - Make sure you don't succumb to bias when looking at your data and developing visualizations - be open to the data showing something you don't expect
   
-  <b>Information Hierarchy</b>
+<b>Information Hierarchy</b>
   
 
 <b>Links</b>
