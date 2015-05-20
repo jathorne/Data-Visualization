@@ -1,6 +1,6 @@
 [Data Visualizations Fundamentals on Lynda](http://www.lynda.com/Design-Infographics-tutorials/Data-Visualization-Fundamentals/153776-2.html)
 
-<b>Introduction</b>
+<b>Introduction to Visualization</b>
 
 - Getting the right people the right content at the right time
 - We're natural storytellers
@@ -56,9 +56,102 @@
   - Figure out headline without the "answers" filled in because you want to look to the data for the answers and remove bias
   - Be able to spot mistakes - you need to know your data well enough to spot mistakes then you can dig in and correct
   - Make sure you don't succumb to bias when looking at your data and developing visualizations - be open to the data showing something you don't expect
+- Visualization can be both explanatory and exploratory - decide how you want to design your visualization, if possible, it's best to try and do both 
   
-<b>Information Hierarchy</b>
-  
+<b>Introduction to Data</b>
+- Design visualizations around Who? What? When? Where? Why? How?
+  - These questions can be organized into a hierarchy based on the situation/application 
+  - Then use this hierarchy to organize your data and visualization
+- Also ask...
+  - What's missing in/from the data? Possible solutions: acknowledge what's missing and move on, ask for missing data from the source, generate missing data 
+  - What in the world can I add? "Find more data from other sources to provide context and complete the picture" 
+  - What's wild? What can I do that's different? "Take a unique visual approach, bring in unexpected contextual data, create an out-of-the-box interactive experience"
+- Before designing a visualization, you need to explore and know your data
+- Experiment with different chart types side by side for the same variables as you explore your data
+- Data almost never comes in the form you need it in, so part of the job of data visualization is cleaning and transforming the data
+- Getting raw data is really important - it's the best you can get and the most granular
+- Common data adjustments
+  - Calculate indexes and ratios - important for making comparisons to make sure you're comparing apples to apples
+  - Calculate percentiles - makes it easier to compare numbers to each other as part of a whole
+  - Aggregate - makes data easier to work with and handle
+  - Regroup - change groupings from the form you received it in to make it easier to manipulate (transpose, pivot, filter, etc.)
+  - Convert from Excel/CSV to JSON/XML/MySQL - convert format of data file; online there are alot of tools for converting from one file to another plus many programming languages have functions that can convert
+  - Always expect that you will have to adjust your data 
+
+<b>Sketches and Wireframes</b>
+- Capture your ideas in a basic form before doing design work
+- Use pen/paper, tablet, whiteboard, etc. to sketch things out
+- It's very fast to design a visual/dashboard by quickly sketching
+- It's easy and fast to get to ideas and iterate through them while sketching it out
+- Experimentations with shapes and ideas can happen quickly when sketching without having to worry about how to code it
+- Don't have to worry about aligning things properly (columns, rows, etc.) when sketching
+- Drawings can be bigger than is possible on the computer - you can see the whole picture
+- The physicality of drawing is also beneficial - it's a more staisfying form of brainstorming 
+- You don't have to be an artist - it's about brainstorming and capturing and idea
+
+<b>Storytelling</b>
+- Humans are wired for storytelling
+- You can structure a narrative from your data
+- You don't have to enforce a linear structure/consumption
+  - But you can do this by using a "Next" button and interaction
+  - Or by using sorting/filtering buttons in a specific order
+- Story structure: beginning, challenge, middle, climax, denouement, grand finale
+- Start by thinking of some headlines for your data/story (fun ones, serious ones, etc.)
+  - "What will people tweet when they share your visualization?"
+  - Can have blanks in headline since the data is going to tell you the answer and you want to remove bias risk
+- Set up introduction/background
+- Challenge can be added by using a call-out in your visualization (call-out)
+- Middle is the main portion of your visualization
+- Climax of your story can be highlighted as a focal point/call-out
+- Don't always get a chance to do a denouement or conclusion - user might leave
+- Conclusion can be put in the lower right hand corner with data sources in a static graphic
+- In an interactive graphic, a conclusion could be put at the end - the last visual/page that comes up as they click through
+- Think of all visualizations/projects as a story line
+- You have to connect with audience and speak their language
+- Data can be confusing and unrelatable to many people
+- Take numbers and turn them into something people can relate to - what does a number mean?
+- Make number tangible through metaphors (x number of football fields, enough to carpet x houses, etc.)
+- But need a metaphor that people can visualize and something that's on topic/relevant
+  - Want something people can see/relate to and is on the same topic as the data/visualization
+- "Assume your audience knows less than use and provide extra context" so it's understandable 
+
+<b>Visual Display</b>
+- Communicating visually...
+  - Makes data tangible
+  - Simplifies (reduces text, conveys meaning quickly)
+  - Sets context 
+- Icons can grab attention, but be careful because some things can detract
+  - Example - theme based imagery in a bar chart - using irregular shapes makes it hard to compare pieces of data
+- Background images can draw the eye through the visualization (Left to Right, Top to Bottom, etc.)
+- Types in Data Visualization
+  - Axes and Legends - always label axes and include legends but don't call too much attention to them (smaller text)
+  - Labels - balance between accuracy, readability, and ascetics
+  - Callouts - use to indicate a benchmark or important point, draw the eye (use different font face/weight/color/background)
+  - Infographics - important to think about overall typography
+- Position, size, color, contrast (opacity), and shape are the five ways to show differentiation
+- It's important to consider scale when creating charts and visualizations
+  - Does the chart type require a certain approach to scaling?
+    - Example - bar charts should start at 0 since the height means something and reflects the data
+  - Are there internal references?
+    - Does the data need to have a reference? 
+    - Example - a line chart doesn't necessarily need the whole scale (0 to 10,000) to show change over time, just make sure that all of the data is shown (zoom in to applicable numbers)
+  - Are the external references?
+    - A number outside of the context of the data
+    - Set the scale based on an external target/reference
+  - Is the scale fair and unbiased?
+  - Look at your chart with different scales, are you being accurate? Why are you choosing that scale?
+  - Channel your audience - make sure scale will help them understand (think about both skeptics and believers)
+- Come to data visualization with an open mind, with no pre-conceptions - try to think about your visualization from a beginner perspective, someone who doesn't know anything about what you're trying to show
+- For complex/interactive visualizations you can create a how-to guide with screenshots, labels, and explanations
+- Include notes on sources and technology used to create visualization
+- Basic charts and when to use them
+  -  Bar chart - humans can easily parse the data in bars; always start with a bar chart, but hard to show lots of groups of bars
+  - Line chart - better for showing changes in values over time; use for data over time
+  - Area chart - filled in line chart, but hard to see relative values when there's overlap
+  - Stacked area chart - good for showing categories over time in reference to each other
+  - Scatter plot - good for two variables and for showing correlation
+  - Bubble chart - add third variable to a scatter plot
+  - Pie chart - "hard to parse when there are more than a couple data points" and "really bad at showing slight variance between data points" but it is good at comparing two data points
 
 <b>Links</b>
 - [Pop Chart Lab](http://popchartlab.com/)
