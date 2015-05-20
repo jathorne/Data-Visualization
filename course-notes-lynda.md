@@ -135,7 +135,7 @@
   - Are there internal references?
     - Does the data need to have a reference? 
     - Example - a line chart doesn't necessarily need the whole scale (0 to 10,000) to show change over time, just make sure that all of the data is shown (zoom in to applicable numbers)
-  - Are the external references?
+  - Are there external references?
     - A number outside of the context of the data
     - Set the scale based on an external target/reference
   - Is the scale fair and unbiased?
