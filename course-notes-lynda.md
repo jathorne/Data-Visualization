@@ -152,6 +152,12 @@
   - Scatter plot - good for two variables and for showing correlation
   - Bubble chart - add third variable to a scatter plot
   - Pie chart - "hard to parse when there are more than a couple data points" and "really bad at showing slight variance between data points" but it is good at comparing two data points
+- Alternative charts and when to use them
+  - Box plots - good for showing multiple variables/data points (example -  stock price at the beginning of the day and end of the day, average price during the day, and high and low price for the day)
+  - Heatmap - good for seeing trends, correlations, overlaps across a number of variables
+  - Radar charts - good at showing multiple variables and relative strength between items, but the eye has a hard time parsing data
+  - Parallel coordinates - good for comparison and multiple variables; easy to see trends and relationships between variables, but it can be overwhelming when there's a lot of data
+  - Scatterplot matrix - multipler variables in comparison with one another; easy to see correlations and patterns
 
 <b>Links</b>
 - [Pop Chart Lab](http://popchartlab.com/)
