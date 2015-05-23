@@ -158,6 +158,34 @@
   - Radar charts - good at showing multiple variables and relative strength between items, but the eye has a hard time parsing data
   - Parallel coordinates - good for comparison and multiple variables; easy to see trends and relationships between variables, but it can be overwhelming when there's a lot of data
   - Scatterplot matrix - multipler variables in comparison with one another; easy to see correlations and patterns
+- Hierarchical Data
+  - Tree diagram - default form for hierarchical data, easy and understandable
+  - Node link diagram - similar to tree diagram except much larger and includes more detail and links
+  - Force directed layout - graphic settles in an orientation that eliminates edges crossing over
+  - Adjacency matrix - allows you to see high level and details (correlations); sorting affects how you see the data and patterns, so it's important to think about how you sort
+  - Tree map - mostly about hierarchy rather than connections between items
+  - Cord diagram - cicular display with variables on the outside and connections in the middle; attractive because we like curved lines but can be hard to parse (like pie charts); difficult because there can be a huge amount of data
+  - Venn diagram - good at showing big picture but not specifics
+- Maps
+  - Google maps can be used by developers with Javascript API
+  - Five standard ways to show data on maps
+    - Markers - highlight points of interest 
+    - Layers - show data associated with a region on top of the map (i.e. dots)
+    - Chloropleth - show data by coloring shape of countries, counties, etc. 
+    - Heat map - show concentration of data by coloring regions
+    - Flows - show movement between regions (often done using arrows or lines between regions or countries)
+- Creative and Innovative Forms
+  - Be thoughtful about how and when you use innovative/creative forms of visualization; make sure you're not distorting the data
+  - [Poppy Field](http://www.valentinadefilippo.co.uk/work/poppy-field/)
+  - [Nobel Prizes](http://www.fastcodesign.com/1671359/infographic-who-wins-the-nobel-prize)
+  - [Drone Strikes](http://drones.pitchinteractive.com/)
+  - [Listen to Wikipedia](http://listen.hatnote.com/)
+  - [Dow Piano](http://www.edlundart.com/pages/dowpiano.html)
+  - [The Racial Dot Map](http://demographics.coopercenter.org/DotMap/index.html)
+  
+
 
 <b>Links</b>
 - [Pop Chart Lab](http://popchartlab.com/)
+- [D3 Examples](https://github.com/mbostock/d3/wiki/Gallery)
+- [Google Maps Javascript](https://developers.google.com/maps/documentation/javascript/)
