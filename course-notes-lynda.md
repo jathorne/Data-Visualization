@@ -208,10 +208,20 @@
    - Is your audience "technophobic/old-fashioned/under-gadegtized" or "techno-driven/modern/gadget-laden"?
    - Need to think about audience's device compatibility (version of IE, mobile OS, etc.)
    - Is the visual you're creating "simple/standard" or "complex/custom"?
-   - Do you have the technical capabilities to develop what you want to build or do you need help?
-   - 
+   - Do you have the technical capabilities to develop what you want to build or will you need help?
+   - Who will be maintaining the support for the visualization you or someone else? If it's someone else make sure the visualization is implemented in something easy to learn and widely used
+   - Are there technical requirements for the end customer/user? Do they use only Microsoft, only open source? Do they use certain browsers or configurations? All of these requirements will affect the technology you choose
+- Tableau, Qlik, Gephi, Highcharts, ZingCharts are all tools that are easy to use right away without much development skill
+- D3 is becoming a standard for developing custom visualizations
+- Raphael is another JavaScript library for custom visualizations
+
+- For great examples of visualization check out New York Times Graphics, Wired Magazine, Fast Company, Bloomberg, The Guardian, FiveThirtyEight
 
 <b>Links</b>
 - [Pop Chart Lab](http://popchartlab.com/)
 - [D3 Examples](https://github.com/mbostock/d3/wiki/Gallery)
 - [Google Maps Javascript](https://developers.google.com/maps/documentation/javascript/)
+- [EagerEyes](https://eagereyes.org/)
+- [I Love Charts](http://ilovecharts.tumblr.com/)
+- [Visual Loop](http://www.visualloop.com/)
+- [Visualizing.org](http://visualizing.org/)
