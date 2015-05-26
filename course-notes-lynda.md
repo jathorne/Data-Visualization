@@ -214,7 +214,6 @@
 - Tableau, Qlik, Gephi, Highcharts, ZingCharts are all tools that are easy to use right away without much development skill
 - D3 is becoming a standard for developing custom visualizations
 - Raphael is another JavaScript library for custom visualizations
-
 - For great examples of visualization check out New York Times Graphics, Wired Magazine, Fast Company, Bloomberg, The Guardian, FiveThirtyEight
 
 <b>Links</b>
