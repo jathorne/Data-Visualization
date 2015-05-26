@@ -85,7 +85,7 @@ Color
 
 Simply visualizations are better
 
-[Gesalt Laws](http://jimsaw.com/design/gestalt.html)
+[Gestalt Laws](http://jimsaw.com/design/gestalt.html)
 - Proximity - elements close to each other are perceived as the same group
 - Similarity - elements that look alike are organized together
 - Figure + Ground - perceive object and surface
