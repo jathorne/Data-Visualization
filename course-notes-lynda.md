@@ -186,10 +186,30 @@
 <b>Interactivitiy</b>
 - Animation can bring data to life and add understanding and interest
 - Four key arguments for using motion in data visualization
-  - Transitions - motion can make smooth and interesting transitions between views of your data and, more importantly, animated transitions can help the user track individual points 
-  - Interaction feedback - show the user that there's something behind the point/bar/etc. that they're hovering over so they know to click on it and get more information
-  - Draw the eye - 
-- Eye candy creates better user interaction 
+   - Transitions - motion can make smooth and interesting transitions between views of your data and, more importantly, animated transitions can help the user track individual points 
+   - Interaction feedback - show the user that there's something behind the point/bar/etc. that they're hovering over so they know to click on it and get more information
+   - Draw the eye - use motion to draw the user's attention to a certain area
+   - Change over time - use motion to show data moving over time (Example: [Gap Minder](http://www.gapminder.org/world/#$majorMode=chart$is;shi=t;ly=2003;lb=f;il=t;fs=11;al=30;stl=t;st=t;nsl=t;se=t$wst;tts=C$ts;sp=5.59290322580644;ti=2013$zpv;v=0$inc_x;mmid=XCOORDS;iid=phAwcNAVuyj1jiMAkmq1iMg;by=ind$inc_y;mmid=YCOORDS;iid=phAwcNAVuyj2tPLxKvvnNPA;by=ind$inc_s;uniValue=8.21;iid=phAwcNAVuyj0XOoBL_n5tAQ;by=ind$inc_c;uniValue=255;gid=CATID0;by=grp$map_x;scale=log;dataMin=194;dataMax=96846$map_y;scale=lin;dataMin=23;dataMax=86$map_s;sma=49;smi=2.65$cd;bd=0$inds=;example=75))
+- "Eye candy" can create better user interaction with your visualization 
+- If you have the time/budget/resources you should try to go interactive
+- Interactivity = Tangibility which can enhance learning and makes the data/message more memorable
+- Visualizations that are relatable will keep the user's interest - interactivity can be used to make a visualization relatable (buttons/options that a user can click on to see/filter their industry/demographic/etc.)
+   - "Make your data story into their data story" 
+- Interaction can also increase credibility since the user can dig in and really understand the data and methodology
+   - With interactivity you can get past the constraints of your own limited time to process the data, limited space to show the data, etc. and allow the user to explore on their own
+- Don't start by thinking about interaction and buttons, etc. - start by thinking about your data, the story you're going to tell, and your audience
+- Think about What's not easy to see in the data? What's missing? What can you add? What might your user want to know?
+   - Interactivity can show what's hidden in your data - add rollover callouts, filters, comparisons, etc.
+- Don't add filters and buttons to show every single tiny piece of data (don't try to replicate Excel or the data sheet)
+- Interactivity can show things you might not have thought of, but make sure you develop the tools for interactivity after you've developed the baseline of what you want to show
+- Audience and goals of what you want to show should drive your visualization and interactivity
+- When trying to pick a technology to implement your visualization think about...
+   - Is the platform something that will be "one-off/short-term/static" or "reusable/permanent/evolving"?
+   - Is your audience "technophobic/old-fashioned/under-gadegtized" or "techno-driven/modern/gadget-laden"?
+   - Need to think about audience's device compatibility (version of IE, mobile OS, etc.)
+   - Is the visual you're creating "simple/standard" or "complex/custom"?
+   - Do you have the technical capabilities to develop what you want to build or do you need help?
+   - 
 
 <b>Links</b>
 - [Pop Chart Lab](http://popchartlab.com/)
