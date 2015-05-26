@@ -183,7 +183,13 @@
   - [Dow Piano](http://www.edlundart.com/pages/dowpiano.html)
   - [The Racial Dot Map](http://demographics.coopercenter.org/DotMap/index.html)
   
-
+<b>Interactivitiy</b>
+- Animation can bring data to life and add understanding and interest
+- Four key arguments for using motion in data visualization
+  - Transitions - motion can make smooth and interesting transitions between views of your data and, more importantly, animated transitions can help the user track individual points 
+  - Interaction feedback - show the user that there's something behind the point/bar/etc. that they're hovering over so they know to click on it and get more information
+  - Draw the eye - 
+- Eye candy creates better user interaction 
 
 <b>Links</b>
 - [Pop Chart Lab](http://popchartlab.com/)
