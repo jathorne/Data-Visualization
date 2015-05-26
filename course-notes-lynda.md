@@ -222,5 +222,4 @@
 - [Google Maps Javascript](https://developers.google.com/maps/documentation/javascript/)
 - [EagerEyes](https://eagereyes.org/)
 - [I Love Charts](http://ilovecharts.tumblr.com/)
-- [Visual Loop](http://www.visualloop.com/)
 - [Visualizing.org](http://visualizing.org/)
