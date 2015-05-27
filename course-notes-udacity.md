@@ -11,7 +11,7 @@ Slope graphs - plot two data points in time, two groups, two points to compare c
 
 [Anscombe's Quartet](http://en.wikipedia.org/wiki/Anscombe%27s_quartet) - always plot your data, don't rely of stats - power of visualization
 
-* Ordered - size, oreintation, saturation
+* Ordered - size, orientation, saturation
 * Nominal - hue, shape, texture
 
 Cleveland & McGill Paper: Ranking of encondings (More Accurate to Less Accurate)
