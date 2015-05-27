@@ -44,9 +44,9 @@ Visual Encodings + Data Type + Relationship = Chart Type
 [Choosing a chart type](http://extremepresentation.typepad.com/files/choosing-a-good-chart-09.pdf)...
 - Data type - continuous or categorical
 - Dimension - 1D, 2D, 3D 
-- Comparison of 2 variables, distribution of 1 variable, distribution of multipler variables, correlation
+- Comparison of 2 variables, distribution of 1 variable, distribution of multiple variables, correlation
 - Scatter - values are independent
-- Line - points are connected - shoes trend and correlation/dependency
+- Line - points are connected - shows trend and correlation/dependency
 
 Geographic Chart Types
  - Choropleth = geographic + color
@@ -73,15 +73,15 @@ Think about eye movement across the page
 Color
 - Be careful with color
 - "Get it right in black and white" - maybe you don't even need color
-- Use medium hues or pastels (less vibrancy - softer feel + less eye strain)
+- Use medium hues or pastels (less vibrancy = softer feel + less eye strain)
 - Avoid rainbow and bright colors
 - Use color to highlight - facilitate understanding, make a point
-- Don't just use it to use it and remove color where it's not making a point
+- Don't just use it to use it - remove color where it's not making a point
 - Be aware of color blindness
 - [ColorBrewer](http://colorbrewer2.org/)
 - [Article: Practical Rules for Using Color in Charts](http://www.perceptualedge.com/articles/visual_business_intelligence/rules_for_using_color.pdf)
 
-2D > 3D for perception and understanding - can view all data at once and compare more easily and quickly (artery/heart attack example)
+2D > 3D for perception and understanding - can view all data at once and compare more easily and quickly in 2D (artery/heart attack example)
 
 Simply visualizations are better
 
@@ -98,7 +98,7 @@ Think about what you're going to leave out of your chart as well as what you're 
 Chart Junk (Tufte) - "anything that is not part of the minimum set of visuals necessary to communicate the information understandably"
 - Heavy/dark grid lines [Article: Grid Lines](http://www.perceptualedge.com/articles/dmreview/grid_lines.pdf)
 - Unnecessary text
-- Ornamenetet chart areas
+- Ornameneted chart areas
 - Pictures within graphs
 - Shading or 3D
 
@@ -138,7 +138,7 @@ Traditional Journalism vs. Data Journalism
   - Delivered in physical and static form
 - Data Journalism
   - Narrative built from the data
-  - Data drives narrative - narrative is created by using the context of data
+  - Data drives narrative - narrative is created using the context of data
   - More complex and varied narrative 
   - Allow viewer/user to make conclusions in their own way
   - Delivered in interactive and dynamic form
