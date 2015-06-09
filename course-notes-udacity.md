@@ -257,3 +257,4 @@ Be Careful of Scaling Shapes
 - [ Chartio](https://chartio.com/)
 - [D3](http://d3js.org/)
 - [Dimple](http://dimplejs.org/)
+- List of Data Sources [1](http://blog.thedataincubator.com/2014/10/data-sources-for-cool-data-science-projects-part-1/) [2](http://blog.thedataincubator.com/2014/10/data-sources-for-cool-data-science-projects-part-2/)
